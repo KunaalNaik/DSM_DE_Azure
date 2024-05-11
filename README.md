@@ -1,5 +1,10 @@
-# DSM_DE_Azure
+# Data Cleaning Script for Journal Entries
 
+This Python script uses pandas to import a CSV file containing journal entries, cleans the data, and converts columns to the appropriate data types. It handles operations such as date conversions, numeric conversions, and cleaning string data. We assume the data includes columns for date, amount, description, and account number.
+
+## Python Script
+
+```python
 import pandas as pd
 
 # Sample file path
